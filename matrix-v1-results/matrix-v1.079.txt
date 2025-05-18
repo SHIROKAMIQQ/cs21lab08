@@ -1,0 +1,16 @@
+
+ Performance counter stats for './matrix-v1':
+
+     2,312,547,331      all_data_cache_accesses                                                 (83.33%)
+     1,130,231,518      l2_cache_accesses_from_dc_misses                                        (83.34%)
+       880,464,396      l2_cache_hits_from_dc_misses                                            (83.34%)
+       198,275,033      l2_cache_misses_from_dc_misses                                          (83.34%)
+    14,259,517,635      cycles                                                                  (83.34%)
+     7,909,796,816      instructions                     #    0.55  insn per cycle              (83.32%)
+
+       3.157638915 seconds time elapsed
+
+       3.141571000 seconds user
+       0.015997000 seconds sys
+
+
