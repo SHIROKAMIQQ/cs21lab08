@@ -1,0 +1,16 @@
+
+ Performance counter stats for './transpose 16k.ppm 512':
+
+     4,259,034,762      all_data_cache_accesses                                                 (83.30%)
+       260,378,111      l2_cache_accesses_from_dc_misses                                        (83.32%)
+       227,935,054      l2_cache_hits_from_dc_misses                                            (83.32%)
+        22,581,362      l2_cache_misses_from_dc_misses                                          (83.41%)
+     7,519,537,171      cycles                                                                  (83.29%)
+     9,241,962,940      instructions                     #    1.23  insn per cycle              (83.36%)
+
+       1.895470352 seconds time elapsed
+
+       0.364999000 seconds user
+       1.307996000 seconds sys
+
+
