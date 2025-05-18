@@ -31,10 +31,10 @@ accesses2, misses2 = get_metrics('matrix-v2-results/', 'matrix-v2')
 assert len(accesses1) == 100 and len(misses1) == 100
 assert len(accesses2) == 100 and len(misses2) == 100
 
+# Rates are already in percent form
 cache_miss_rate1: list[float] = [100 * misses1[i]/accesses1[i] for i in range(100)]
 cache_miss_rate2: list[float] = [100 * misses2[i]/accesses2[i] for i in range(100)]
 
-# No need to divide by 100 so we could get percentage immediately
 avg1 = sum(cache_miss_rate1) / 100
 avg2 = sum(cache_miss_rate2) / 100
 print(f"Average cache miss rate for matrix-v1: {avg1:.9f}")
